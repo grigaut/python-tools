@@ -1,4 +1,4 @@
-name: pyhton_tools_py311
+name: python_tools_py311
 
 channels:
   - conda-forge
