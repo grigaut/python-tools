@@ -64,7 +64,7 @@ deploy-docs:
 	$(POETRY) install --only docs
 	$(MKDOCS) gh-deploy
 	rm -r -f ./site
-	
+
 .PHONY: pre-commit
 pre-commit: $(PRECOMMIT)
 	$(PRECOMMIT) install
