@@ -5,12 +5,21 @@ repo_url: https://github.com/grigaut/python-tools
 
 theme:
   name: "material"
+  features:
+    - navigation.tabs               # Tabs
+    - navigation.tabs.sticky        # Above tabs stay displayed
+    - navigation.indexes            # Attach documents to sections
+    - navigation.instant
+    - navigation.footer
+    - navigation.top                # Scroll back to top button
+    - content.code.annotate         # Admonitions
+    - content.code.copy             # copy code block
 
 nav:
   - First page:
     - index.md
-  - Second Page:
-    - second_page.md
+  - Extensions Examples:
+    - extension_examples.md
   - Code Reference: reference/
 
 plugins:
@@ -29,3 +38,12 @@ plugins:
             show_root_toc_entry: false
             show_if_no_docstring: true
             showsubmodules: true
+
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences      # code blocks
+  - pymdownx.details
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true   # Tabs
+  - footnotes
