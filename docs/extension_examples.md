@@ -42,3 +42,25 @@ markdown_extension.
     Content1
 === "Tab2"
     Content2
+
+### Cards
+
+```yaml
+...
+...
+markdown_extension.
+    - admonition
+    - pymdownx.details
+```
+
+??? question "What's a card?"
+
+    It can be folded
+
+!!! question "What's a card?"
+
+    It can be extended
+
+!!! warning "What's a card?"
+
+    It can have different colors
