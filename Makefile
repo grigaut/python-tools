@@ -1,7 +1,7 @@
 .ONESHELL:
 	SHELL:=/bin/bash
 
-ENVIRONMENT_FILEPATH := environment.yml
+ENVIRONMENT_FILEPATH := environment.yaml
 VENV := ./.venv
 POETRY := $(VENV)/bin/poetry
 PYTHON := $(VENV)/bin/python3.11
