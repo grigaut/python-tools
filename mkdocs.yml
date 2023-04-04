@@ -5,6 +5,8 @@ repo_url: https://github.com/grigaut/python-tools
 
 theme:
   name: "material"
+  logo: assets/logo/NERSC.png
+  favicon: assets/logo/NERSC.png
   features:
     - navigation.tabs               # Tabs
     - navigation.tabs.sticky        # Above tabs stay displayed
