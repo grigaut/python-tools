@@ -1,0 +1,8 @@
+name: pyhton_tools_py311
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - poetry=1.4.1
